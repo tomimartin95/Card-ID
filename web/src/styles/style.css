@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#insta {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 2px;
+    border-style: solid;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.card-text {
+    text-align: start;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+/*Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
